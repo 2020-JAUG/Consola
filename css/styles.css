@@ -102,9 +102,9 @@ body {
 .botonX {
     position: absolute;
     display: flex;
-    flex-direction: column;
-    right: 20em;
-    top: 14em;
+    flex-direction: row;
+    right: 20.5em;
+    top: 16.7em;
     border-radius: 50%;
     background: #d3d4d6;
     height: 2em;
@@ -114,12 +114,47 @@ body {
 .botonY {
     position: absolute;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     border-radius: 50%;
     background-color: #fff;
     height: 2em;
     width: 2em;
-    top: 17em;
+    top: 19em;
     left: 65em;
     box-shadow: -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
+}
+.botonA {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50%;
+    background-color: #fff;
+    height: 2em;
+    width: 2em;
+    top: 19em;
+    left: 70em;
+    box-shadow: -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
+}
+.botonB {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    border-radius: 50%;
+    background-color: #fff;
+    height: 2em;
+    width: 2em;
+    top: 21.1em;
+    right: 20.5em;
+    box-shadow: -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
+}
+.joystick {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 50%;
+    height: 3.4em;
+    width: 3.4em;
+    top: 25.3em;
+    right: 19.6em;
 }
