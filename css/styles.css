@@ -15,9 +15,9 @@
     position: relative;
     top: 11em;
     display: flex;
-    left: 21em;
+    left: 16em;
     height: 25em;
-    width: 53em;
+    width: 60em;
     background-color: #676c72;
     justify-content: center;
     border-radius: 2em 3em 3em 3em;
@@ -33,7 +33,7 @@
     background: #606569;
     border-radius: 1em 1em 1em;
     top: 1em;
-    left: 8em;
+    left: 12em;
 }
 #pantalla1 {
     top: 2.7em;
@@ -64,7 +64,7 @@
     flex-direction: column;
     height: 4em;
     width: 1em;
-    left: -27em;
+    left: -30em;
     background-color: black;
     border-radius: 22222222222% 2% 2% 2222222%;
 }
@@ -76,11 +76,11 @@
     display: flex;
     top: -.05em;
     flex-direction: column;
-    width: 0.8em;
-    height: 0.6em;
+    width: 0.6em;
+    height: 0.3em;
     left: 0.9em;
-    border-radius: 1.5em;
-    box-shadow: -2em 2em 0 0 #fff inset;
+    border-radius: 1.5% 2% 3%;
+    box-shadow: -2em 2em 0 0 rgb(0, 0, 0) inset;
 }
 
 .relleno0 {
@@ -101,7 +101,7 @@
     right: 32em;
     top: 3em;
     border-radius: 50%;
-    background: grey;
+    background: rgb(38, 155, 120);
     height: 6em;
     width: 6em;
 }
