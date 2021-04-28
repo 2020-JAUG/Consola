@@ -15,10 +15,11 @@
     position: relative;
     top: 11em;
     display: flex;
-    left: 21em;
+    left: 17em;
     height: 25em;
-    width: 53em;
+    width: 57em;
     background-color: #676c72;
+    /* background-color: #676c72; */
     justify-content: center;
     border-radius: 2em 3em 3em 3em;
     box-shadow: -0.5em 1.5em 1.5em 1em rgb(44, 44, 44);
@@ -33,7 +34,7 @@
     background: #606569;
     border-radius: 1em 1em 1em;
     top: 1em;
-    left: 8em;
+    left: 10em;
 }
 #pantalla1 {
     top: 2.7em;
@@ -64,7 +65,7 @@
     flex-direction: column;
     height: 4em;
     width: 1em;
-    left: -27em;
+    left: -29em;
     background-color: black;
     border-radius: 22222222222% 2% 2% 2222222%;
 }
@@ -95,13 +96,15 @@
     border-radius: 2em 2em 22em 2em;
 }
 
-.redondo {
+.redondoX {
     position: absolute;
     display: flex;
-    right: 32em;
-    top: 3em;
+    right: 19em;
+    top: 13em;
     border-radius: 50%;
-    background: grey;
-    height: 6em;
-    width: 6em;
+    background: #d3d4d6;
+    height: 2em;
+    width: 2em;
+    box-shadow: -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
+
 }
