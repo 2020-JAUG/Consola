@@ -23,6 +23,18 @@
     border-radius: 2em 3em 3em 3em;
     box-shadow: -0.5em 1.5em 1.5em 1em rgb(44, 44, 44);
 }
+
+.pantalla-fondo {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 37em;
+    height: 22em;
+    background: #606569;
+    border-radius: 1em 1em 1em;
+    top: 1em;
+    left: 8em;
+}
 #pantalla1 {
     top: 2.7em;
     display: flex;
@@ -31,7 +43,6 @@
     width: 33em;
     height: 19em;
     background: #1310bb;
-    justify-content: center;
     border: 0.5em solid black;
 }
 
