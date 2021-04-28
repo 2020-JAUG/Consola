@@ -99,12 +99,24 @@
 .redondoX {
     position: absolute;
     display: flex;
+    flex-direction: column;
     right: 19em;
-    top: 13em;
+    top: 14em;
     border-radius: 50%;
     background: #d3d4d6;
     height: 2em;
     width: 2em;
     box-shadow: -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
-
+}
+.redondoY {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+    background-color: #fff;
+    height: 2em;
+    width: 2em;
+    top: 17em;
+    left: 65em;
+    box-shadow: -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
 }
