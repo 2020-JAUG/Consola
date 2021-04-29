@@ -37,6 +37,7 @@ body {
     align-content: center;
     justify-content: center;
 }
+
 #pantalla1 {
     top: 2.7em;
     display: flex;
@@ -50,53 +51,90 @@ body {
     justify-content: center;
 }
 
+.section {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 6em;
+    height: 5.9em;
+    background-color: aqua;
+    top: 22em;
+    left: 18em;
+}
+.row1 {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    width: 2em;
+    height: 2em;
+    background-color: brown;
+    top: -0.1em;
+    right: 4em;
+}
+
+.row2 {
+    right: -0.0em;
+}
+
+.row3 {
+    right: 2em;
+    background-color: #fff;
+}
+
+.row4 {
+    right: 6em;
+    top: 1.9em;
+    right: 4em;
+    background-color: #fff;
+}
+
+.row5 {
+    right: 2em;
+    top: 1.9em;
+    background-color: #fff;
+}
+.row6 {
+    background-color: #fff;
+    top: 1.9em;
+    right: -0.0em;
+}
+
+.row7 {
+    background-color: #fff;
+    top: 3.9em;
+    right: -.0.3em;
+}
+
+.row8 {
+    background-color: #fff;
+    top: 4em;
+    right: 1.9em;
+}
+
 .l1 {
     position: absolute;
-    top: -1em;
+    z-index: -1;
+    top: -0.8em;
     display: flex;
     flex-direction: column;
-    height: 1em;
+    height: 2em;
     width: 5em;
     left: 0.1em;
     background-color: black;
     border-radius: 222% 0 0 22%;
 }
+
 .l1-2 {
     position: relative;
+    z-index: -1;
     top: 0em;
     display: flex;
     flex-direction: column;
     height: 4em;
-    width: 1em;
-    left: -29em;
+    width: 2em;
+    right: 28.3em;
     background-color: black;
     border-radius: 22222222222% 2% 2% 2222222%;
-}
-
-.nieto-l2 {
-    position: relative;
-    content: '';
-    background-color: rgb(212, 47, 47);
-    display: flex;
-    top: -.05em;
-    flex-direction: column;
-    width: 0.8em;
-    height: 0.6em;
-    left: 0.9em;
-    border-radius: 1.5em;
-    box-shadow: -2em 2em 0 0 #fff inset;
-}
-
-.relleno0 {
-    position: relative;
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    top: -.05em;
-    flex-direction: column;
-    width: 1em;
-    height: 0.3em;
-    left: 1em;
-    border-radius: 2em 2em 22em 2em;
 }
 
 .botonX {
@@ -111,6 +149,7 @@ body {
     width: 2em;
     box-shadow: -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
 }
+
 .botonY {
     position: absolute;
     display: flex;
@@ -123,6 +162,7 @@ body {
     left: 65em;
     box-shadow: -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
 }
+
 .botonA {
     position: absolute;
     display: flex;
@@ -135,6 +175,7 @@ body {
     left: 70em;
     box-shadow: -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
 }
+
 .botonB {
     display: flex;
     position: absolute;
@@ -147,6 +188,7 @@ body {
     right: 20.5em;
     box-shadow: -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
 }
+
 .joystick {
     display: flex;
     position: absolute;
@@ -157,4 +199,89 @@ body {
     width: 3.4em;
     top: 25.3em;
     right: 19.6em;
+}
+
+.btn-home {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 50%;
+    height: 1.5em;
+    width: 1.5em;
+    top: 32em;
+    right: 24em;
+}
+
+.mas {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background-color: #676c72;
+    height: 4em;
+    width: 2em;
+    top: 13em;
+    right: 24em;
+    align-content: center;
+    justify-content: center;
+}
+
+.cruzArriba {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: #fff;
+    height: 0.5em;
+    width: 0.3em;
+    top: -0.9em;
+    right: -0.8em;
+    box-shadow: -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
+}
+
+.relleno {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background-color: #fff;
+    height: 0.5em;
+    width: 0.4em;
+    top: 1.3em;
+    right: 0.8em;
+    box-shadow: -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
+}
+
+.cruzAbajo {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background-color: #fff;
+    height: 0.6em;
+    width: 0.3em;
+    top: 1.8em;
+    right: 0.9em;
+    box-shadow: -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
+}
+
+.cruzDerecha {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background-color: #fff;
+    height: 0.3em;
+    width: 0.6em;
+    top: 1.4em;
+    right: 1.2em;
+    box-shadow: -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
+}
+
+.cruzIzquierda {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background-color: #fff;
+    height: 0.3em;
+    width: 0.6em;
+    top: 1.4em;
+    right: 0.2em;
+    box-shadow: -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
 }
