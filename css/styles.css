@@ -68,6 +68,7 @@ body {
     width: 2em;
     height: 2em;
     background-color: #676c72;
+    box-shadow: -0.1em 0em 1.5em 0.1em rgba(44, 44, 44, 0.05);
     top: -0.1em;
     right: 4em;
 }
@@ -205,6 +206,13 @@ body {
     width: 3.4em;
     top: 25.3em;
     right: 19.6em;
+}
+
+.joystick1 {
+    left: 19.5em;
+    top: 16em;
+    box-shadow: -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
+
 }
 
 .btn-home {
