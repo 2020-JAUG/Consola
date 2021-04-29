@@ -58,7 +58,7 @@ body {
     width: 6em;
     height: 5.9em;
     background-color: aqua;
-    top: 22em;
+    top: 24em;
     left: 18em;
 }
 .row1 {
@@ -67,7 +67,7 @@ body {
     flex-direction: row;
     width: 2em;
     height: 2em;
-    background-color: brown;
+    background-color: #676c72;
     top: -0.1em;
     right: 4em;
 }
@@ -100,15 +100,21 @@ body {
 }
 
 .row7 {
-    background-color: #fff;
+    background-color: #676c72;
     top: 3.9em;
     right: -.0.3em;
 }
 
 .row8 {
     background-color: #fff;
-    top: 4em;
-    right: 1.9em;
+    top: 3.9em;
+    right: 2em;
+}
+
+.row9 {
+    background-color: #676c72;
+    top: 3.9em;
+    right: -0em;
 }
 
 .l1 {
