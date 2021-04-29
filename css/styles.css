@@ -206,11 +206,44 @@ body {
     width: 3.4em;
     top: 25.3em;
     right: 19.6em;
+    box-shadow: -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
+}
+
+.btn-menos {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    width: 1.5em;
+    height: 0.5em;
+    background-color: #fff;
+    top: 14em;
+    left: 24em;
+    box-shadow: -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
+}
+
+.btn-up {
+    top: 5em;
+
+    border-radius: 30%;
+    background-color: #3434d6;
+    width: 2em;
+    height: 2em;
+    left: 9em;
+}
+
+.btn-up1 {
+    z-index: -1;
+    width: 2em;
+    border-radius: 30%;
+    height: 1em;
+    background-color: #1310bb;
+    top: -0.3em;
+    left: 12em;
 }
 
 .joystick1 {
     left: 19.5em;
-    top: 16em;
+    top: 17.2em;
     box-shadow: -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
 
 }
@@ -225,6 +258,16 @@ body {
     width: 1.5em;
     top: 32em;
     right: 24em;
+    box-shadow: -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
+}
+
+.menu {
+    left: 24em;
+    top: 33em;
+    width: 1em;
+    height: 1em;
+    border-radius: 0;
+
 }
 
 .mas {
