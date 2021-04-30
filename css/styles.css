@@ -4,7 +4,7 @@ body {
     padding: 0;
     min-height: 100vh;
     box-sizing: border-box;
-    background-color:rgb(210, 203, 203);
+    background-color:rgba(237, 233, 233, 0.664);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,9 +14,9 @@ body {
     z-index: -1;
     width: 65em;
     height: 24em;
-    border-right: 3.8em solid transparent;
-    border-left: 3.9em solid transparent;
-    border-bottom: 6.3em solid #afb4b8;
+    border-right: 3.2em solid transparent;
+    border-left: 3.2em solid transparent;
+    border-bottom: 6.2em solid #afb4b8;
     border-radius: 2em 3em 3em 3em;
     border-radius: 2em 3em 3em 3em;
     box-shadow: -0.3em 1.6em rgb(77, 76, 76),
@@ -26,12 +26,12 @@ body {
     display: flex;
     height: 25em;
     width: 57em;
-    background-color:  #676c72;
+    background-color:  #828387;
     border: solid rgb(176, 173, 173);
     justify-content: center;
     border-radius: 2em 3em 3em 3em;
-    box-shadow: -0.3em 1.6em 3.1em 1em rgb(77, 76, 76),
-                -0.2em 0.1em 2em rgb(162, 144, 144);
+    box-shadow: -0.3em 1.6em 3.1em 1em rgb(92, 91, 91),
+                -0.1em  1em rgb(162, 144, 144);
 }
 
 .pantalla-fondo {
@@ -40,7 +40,7 @@ body {
     flex-direction: column;
     width: 37em;
     height: 22em;
-    background: #606569;
+    background: #828387;
     border-radius: 1em 1em 1em;
     top: 1.7em;
     align-content: center;
@@ -54,19 +54,11 @@ body {
     flex-direction: column;
     width: 33em;
     height: 19em;
-    background: #a8abbd;
+    background: #cccee2;
     border: 0.5em solid black;
     align-content: center;
     justify-content: center;
 }
-/* .triangulo {
-    position: absolute;
-    width: 1em;
-    height: 1em;
-    border-left: 100px solid #f0ad4e;
-    border-top: 50px solid transparent;
-    border-bottom: 50px solid transparent;
-} */
 
 .cruceta {
     display: flex;
@@ -89,102 +81,89 @@ body {
     right: 4em;
 }
 
-.row3 {
+.up {
+    align-items: center;
+    justify-content: center;
     right: 1.8em;
-    top: -0.2em;
-    border-top: 3px solid rgba(68, 66, 66, 0.968);
-    border-right: 3px solid  #5a5654;
-    border-left: 3px solid #5a5654;
+    top: -0.3em;
+    border-top: 3px solid #74706f;
+    border-right: 3px solid  #74706f;
+    border-left: 3px solid #74706f;
     background-color: #fff;
     box-shadow: -0.1em 0em 1.5em 0.1em inset rgba(117, 116, 116, 0.982);
 }
 
-.row4 {
+.left {
     right: 6em;
     top: 1.8em;
     right: 4em;
-    border-bottom: 3px solid #5a5654;
-    border-left:3px solid #5a5654;
-    border-top:3px solid #5a5654;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid #74706f;
+    border-left:3px solid #74706f;
+    border-top:3px solid #74706f;
     background-color: #fff;
     box-shadow: -0.1em 0em 1.5em 0.1em inset  rgba(117, 116, 116, 0.982);
 }
 
-.row5 {
+.center {
     z-index: 1;
     right: 2.1em;
     top: 1.9em;
     width: 2.1em;
     border-radius: 0.1em;
     height: 2.2em;
-    background-color: rgba(255, 255, 255, 0.845);
+    box-shadow: -0.1em 0em 1.5em 0.1em inset  rgba(182, 176, 176, 0.982);
+
 }
-.row6 {
+.right {
     background-color: #fff;
-    border-bottom: 3px solid #5a5654;
-    border-right:3px solid #5a5654;
-    border-top:3px solid #5a5654;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid #74706f;
+    border-right:3px solid #74706f;
+    border-top:3px solid #74706f;
     box-shadow: -0.1em 0em 1.5em 0.1em inset rgba(117, 116, 116, 0.982);
     top: 1.9em;
     right: -0.1em;
 }
 
-.row8 {
+.down {
     background-color: #fff;
-    border-bottom: 3px solid #5a5654;
-    border-left:3px solid #5a5654;
-    border-right:3px solid #5a5654;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid #74706f;
+    border-left:3px solid #74706f;
+    border-right:3px solid #74706f;;
     box-shadow: -0.1em 0em 1.5em 0.1em inset rgba(117, 116, 116, 0.982);
-    top: 4em;
+    top: 4.1em;
     right: 1.9em;
 }
 
 .l1 {
-    transform: rotate(2deg);
     position: absolute;
-    z-index: -1;
-    top: -1em;
-    display: flex;
-    flex-direction: column;
-    height: 2em;
-    width: 5em;
-    left: -0.3em;
+    top: -0.7em;
+    left: -0.52em;
+    width: 4.6em;
+    border-radius: 57% 71% 0% 22%;
+    height: 4.2em;
     background: linear-gradient(233deg, rgb(119, 115, 115) 40%, rgb(99, 95, 95) 72%);
-    border-radius: 211% 98% 0 1%;
-}
-
-.l1-2 {
-    transform: rotate(2deg);
-    position: relative;
+    border-radius: 221% 93% 21% 1%;
     z-index: -1;
-    top: -0.1em;
-    display: flex;
-    flex-direction: column;
-    height: 4em;
-    width: 2em;
-    right: 28.1em;
-    background: linear-gradient(233deg, rgb(119, 113, 115) 40%, rgb(99, 95, 95) 72%);
-    border-radius: 21% 23% 22%;
+    box-shadow: 0em 0em 0.2em 0.2em #413d3d;
 }
 
-.l2-up {
+.l2 {
+    position: absolute;
+    top: -1em;
+    right: -1em;
+    width: 5em;
+    height: 6em;
+    border-radius: 52% 98% 0% 12%;
     z-index: -1;
-    position: absolute;
-    transform: rotate(-1deg);
-    flex-direction: row;
-    left: 52em;
-    top: -3em;
-    background: linear-gradient(233deg, rgb(119, 113, 115) 40%, rgb(99, 95, 95) 72%);
-    border-radius: 212% 270%  222%;
-}
-
-.l2-down {
-    position: absolute;
-    left: 3.6em;
-    top: 0.8em;
-    height: 4em;
-    width: 3em;
-    border-radius: 22% 22222222% 22222% 0%;
+    background: linear-gradient(233deg, rgb(119, 115, 115) 40%, rgb(99, 95, 95) 72%);
+    box-shadow: 0em 0em 0.2em 0.2em #413d3d,
+                32em 22em 3em 1 rgb(67, 67, 67);
 }
 
 .botonX {
@@ -207,11 +186,10 @@ body {
     right: 0.2em;
     top: -0.7em;
     border-radius: 50%;
-    background: #d3d4d6;
     height: 1.1em;
     width: 1em;
-    background: rgb(196,196,196);
-    background: linear-gradient(233deg, rgb(201, 199, 199) 40%, rgb(240, 236, 236) 71%);
+    background-color: rgba(255, 255, 255, 0.406);
+    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(138, 133, 133);
     box-shadow: 0em 0.1em  1em 0.1em  rgb(145, 139, 139);
 }
 
@@ -220,12 +198,12 @@ body {
     display: flex;
     flex-direction: row;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.406);
     height: 2em;
     width: 2em;
     top: 19em;
     left: 65em;
-    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(44, 44, 44);
+    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(94, 91, 91);
 }
 
 .botonA {
@@ -233,12 +211,12 @@ body {
     display: flex;
     flex-direction: row;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.406);
     height: 2em;
     width: 2em;
     top: 19em;
     left: 70em;
-    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(44, 44, 44);
+    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(94, 91, 91);
 }
 
 .botonB {
@@ -246,58 +224,57 @@ body {
     position: absolute;
     flex-direction: row;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.406);
     height: 2em;
     width: 2em;
     top: 21.1em;
     right: 20.5em;
-    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(44, 44, 44);
+    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(94, 91, 91);
 }
 
-.joystick {
+.joystick-stuffed {
     display: flex;
     position: absolute;
     flex-direction: column;
-    border-radius: 50%;
-    border:solid rgb(92, 88, 88);
-    height: 3em;
-    width: 3.5em;
-    top: 25.2em;
-    right: 19.6em;
-    box-shadow: rgb(167, 167, 167);
-    background: rgb(196,196,196);
-    box-shadow: -0.1em 0em 1em 0.1em inset rgb(92, 91, 91),
-                -0.2em 0.1em 2em -0.12em inset rgb(162, 144, 144);
-}
-
-.joystick-left {
-    display: flex;
-    position: absolute;
-    flex-direction: column;
-    width: 3em;
-    height: 2.9em;
+    width: 2em;
+    height: 2em;
     border-radius: 45%;
-    left: 0.1em;
-    top: 0.2em;
-    box-shadow: rgb(167, 167, 167);
+    left: 0.4em;
+    top: 0.32em;
+    border: 0.1em solid #747070;
+    border-radius: 1em;
     background: rgb(196,196,196);
-    box-shadow: -0.1em 0em 1em 0.1em inset rgb(92, 91, 91),
-                -0.2em 0.1em 2em -0.12em  rgb(162, 144, 144);
+    box-shadow: -0.1em 0em 1em 0.1em inset rgb(9, 8, 8),
+                -0.2em 0.1em 2em -0.12em  rgb(45, 43, 43);
 
 }
 
-.btn-menos {
+.joystick1 {
     display: flex;
     position: absolute;
-    flex-direction: row;
-    width: 1.5em;
-    height: 0.5em;
-    background-color: #fff;
-    top: 14em;
-    left: 24em;
-    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(148, 143, 143),
-                -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
+    width: 3.3em;
+    height: 3.3em;
+    border-radius: 50%;
+    left: 19.9em;
+    top: 15.5em;
+    border:solid rgb(92, 88, 88);
+    background: linear-gradient(233deg, rgb(160, 156, 156) 40%, rgb(150, 142, 142) 71%);
+    box-shadow: 0em 0.1em  1em 0.1em  rgb(94, 88, 88);
 }
+
+.joystick-right {
+    display: flex;
+    position: absolute;
+    width: 3.2em;
+    height: 3.2em;
+    border-radius: 50%;
+    left: 67em;
+    top: 25.9em;
+    border:solid rgb(92, 88, 88);
+    background: linear-gradient(233deg, rgb(160, 156, 156) 40%, rgb(150, 142, 142) 71%);
+    box-shadow: 0em 0.1em  1em 0.1em  rgb(94, 88, 88);
+}
+
 
 .btn-up {
     z-index: -1;
@@ -319,36 +296,21 @@ body {
     left: 12em;
 }
 
-.joystick1 {
+.btn-menos {
     display: flex;
     position: absolute;
-    width: 3.3em;
-    height: 3.3em;
-    border-radius: 50%;
-    left: 19.9em;
-    top: 15.5em;
-    border:solid rgb(92, 88, 88);
-    box-shadow: rgb(167, 167, 167);
-    background: rgb(196,196,196);
-    background: linear-gradient(233deg, rgb(201, 199, 199) 40%, rgb(230, 224, 224) 71%);
-    box-shadow: 0em 0.1em  1em 0.1em  rgb(167, 167, 167);
-}
-
-.joystick-right {
-    display: flex;
-    position: absolute;
-    width: 3.2em;
-    height: 3.2em;
-    border-radius: 50%;
-    left: 0.1em;
-    top: -0.1em;
-    box-shadow: rgb(167, 167, 167);
-    background: rgb(196,196,196);
-    background: linear-gradient(233deg, rgb(201, 199, 199) 40%, rgb(230, 224, 224) 71%);
-    box-shadow: 0em 0.1em  1em 0.1em  rgb(167, 167, 167);
+    flex-direction: row;
+    width: 1.5em;
+    height: 0.5em;
+    background-color: #fff;
+    top: 14em;
+    left: 24em;
+    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(148, 143, 143),
+                -0.1em 0em 1em  rgb(113, 107, 107);
 }
 
 .btn-home {
+    cursor: pointer;
     display: flex;
     position: absolute;
     flex-direction: column;
@@ -358,6 +320,7 @@ body {
     border: solid rgb(209, 204, 204);
     width: 1.5em;
     top: 32em;
+    border: 0.1em solid #747070;
     right: 24em;
     box-shadow: -0.1em 0em 1.4em rgb(44, 44, 44);
     box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(148, 143, 143),
@@ -376,7 +339,7 @@ body {
     display: flex;
     position: absolute;
     flex-direction: column;
-    background-color: #676c72;
+    background-color: #828387;
     height: 4em;
     width: 2em;
     top: 13em;
@@ -394,7 +357,7 @@ body {
     width: 0.3em;
     top: -0.9em;
     right: -0.8em;
-    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(131, 127, 127);
+    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(74, 73, 73);
 }
 
 .relleno {
@@ -406,7 +369,7 @@ body {
     width: 0.4em;
     top: 1.3em;
     right: 0.8em;
-    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(131, 127, 127);
+    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(74, 73, 73);
 }
 
 .cruzAbajo {
@@ -418,7 +381,7 @@ body {
     width: 0.3em;
     top: 1.8em;
     right: 0.9em;
-    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(131, 127, 127);
+    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(74, 73, 73);
 }
 
 .cruzDerecha {
@@ -430,8 +393,8 @@ body {
     width: 0.6em;
     top: 1.4em;
     right: 1.2em;
-    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(148, 143, 143),
-                -0.1em 0em 1.5em 0.1em rgb(92, 91, 91);
+    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(74, 73, 73);
+
 }
 
 .cruzIzquierda {
@@ -443,17 +406,5 @@ body {
     width: 0.6em;
     top: 1.4em;
     right: 0.2em;
-    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(131, 127, 127);
-}
-
-.btnBc {
-    display: flex;
-    position: absolute;
-    border-radius: 45%;
-    width: 1em;
-    top: 18.2em;
-    height: 2em;
-    right: 3em;
-    box-shadow: 0em 0.1em  0.2em 0.21em  rgb(216, 208, 208);
-    box-shadow: 0em 0.1em  1em 0.1em  rgb(199, 197, 197);
+    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(74, 73, 73);
 }
