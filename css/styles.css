@@ -54,11 +54,19 @@ body {
     flex-direction: column;
     width: 33em;
     height: 19em;
-    background: #c7c7c9;
+    background: #a8abbd;
     border: 0.5em solid black;
     align-content: center;
     justify-content: center;
 }
+/* .triangulo {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    border-left: 100px solid #f0ad4e;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+} */
 
 .cruceta {
     display: flex;
@@ -74,27 +82,32 @@ body {
     display: flex;
     position: absolute;
     flex-direction: row;
-    width: 2em;
+    width: 2.1em;
     height: 2em;
-    box-shadow: -0.1em 0em 1.5em 0.1em rgba(117, 116, 116, 0.982);
-    top: -0.1em;
+    box-shadow: -0.1em 0em 1.5em 0.1em inset rgba(117, 116, 116, 0.982);
+    top: -0.3em;
     right: 4em;
 }
 
 .row3 {
     right: 1.8em;
-    border: solid rgba(63, 62, 62, 0.968);
+    top: -0.2em;
+    border-top: 3px solid rgba(68, 66, 66, 0.968);
+    border-right: 3px solid  #5a5654;
+    border-left: 3px solid #5a5654;
     background-color: #fff;
-    box-shadow: -0.1em 0em 1.5em 0.1em rgba(117, 116, 116, 0.982);
+    box-shadow: -0.1em 0em 1.5em 0.1em inset rgba(117, 116, 116, 0.982);
 }
 
 .row4 {
     right: 6em;
     top: 1.8em;
     right: 4em;
-    border: solid rgba(63, 62, 62, 0.968);
+    border-bottom: 3px solid #5a5654;
+    border-left:3px solid #5a5654;
+    border-top:3px solid #5a5654;
     background-color: #fff;
-    box-shadow: -0.1em 0em 1.5em 0.1em rgba(117, 116, 116, 0.982);
+    box-shadow: -0.1em 0em 1.5em 0.1em inset  rgba(117, 116, 116, 0.982);
 }
 
 .row5 {
@@ -108,18 +121,22 @@ body {
 }
 .row6 {
     background-color: #fff;
-    border: solid rgba(63, 62, 62, 0.968);
-    box-shadow: -0.1em 0em 1.5em 0.1em rgba(117, 116, 116, 0.982);
+    border-bottom: 3px solid #5a5654;
+    border-right:3px solid #5a5654;
+    border-top:3px solid #5a5654;
+    box-shadow: -0.1em 0em 1.5em 0.1em inset rgba(117, 116, 116, 0.982);
     top: 1.9em;
     right: -0.1em;
 }
 
 .row8 {
     background-color: #fff;
-    border: solid rgba(63, 62, 62, 0.968);
-    box-shadow: -0.1em 0em 1.5em 0.1em rgba(117, 116, 116, 0.982);
-    top: 3.9em;
-    right: 2em;
+    border-bottom: 3px solid #5a5654;
+    border-left:3px solid #5a5654;
+    border-right:3px solid #5a5654;
+    box-shadow: -0.1em 0em 1.5em 0.1em inset rgba(117, 116, 116, 0.982);
+    top: 4em;
+    right: 1.9em;
 }
 
 .l1 {
@@ -180,7 +197,7 @@ body {
     background: #d3d4d6;
     height: 2em;
     width: 2em;
-    box-shadow: -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
+    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(44, 44, 44);
 }
 .x>h2 {
     text-align: center;
@@ -208,7 +225,7 @@ body {
     width: 2em;
     top: 19em;
     left: 65em;
-    box-shadow: -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
+    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(44, 44, 44);
 }
 
 .botonA {
@@ -221,7 +238,7 @@ body {
     width: 2em;
     top: 19em;
     left: 70em;
-    box-shadow: -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
+    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(44, 44, 44);
 }
 
 .botonB {
@@ -234,36 +251,39 @@ body {
     width: 2em;
     top: 21.1em;
     right: 20.5em;
-    box-shadow: -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
+    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(44, 44, 44);
 }
 
 .joystick {
     display: flex;
     position: absolute;
     flex-direction: column;
-    background-color: #fff;
     border-radius: 50%;
     border:solid rgb(92, 88, 88);
-    height: 3.4em;
-    width: 3.4em;
-    top: 25.3em;
+    height: 3em;
+    width: 3.5em;
+    top: 25.2em;
     right: 19.6em;
-    box-shadow: -0.1em 0em 1em 0.1em rgb(92, 91, 91),
-                -0.2em 0.1em 2em -0.12em rgb(162, 144, 144);
+    box-shadow: rgb(167, 167, 167);
+    background: rgb(196,196,196);
+    box-shadow: -0.1em 0em 1em 0.1em inset rgb(92, 91, 91),
+                -0.2em 0.1em 2em -0.12em inset rgb(162, 144, 144);
 }
 
 .joystick-left {
     display: flex;
     position: absolute;
+    flex-direction: column;
     width: 3em;
-    height: 3em;
-    border-radius: 50%;
+    height: 2.9em;
+    border-radius: 45%;
     left: 0.1em;
     top: 0.2em;
     box-shadow: rgb(167, 167, 167);
     background: rgb(196,196,196);
-    background: linear-gradient(233deg, rgb(201, 199, 199) 40%, rgb(230, 224, 224) 71%);
-    box-shadow: 0em 0.1em  1em 0.1em  rgb(167, 167, 167);
+    box-shadow: -0.1em 0em 1em 0.1em inset rgb(92, 91, 91),
+                -0.2em 0.1em 2em -0.12em  rgb(162, 144, 144);
+
 }
 
 .btn-menos {
@@ -275,7 +295,7 @@ body {
     background-color: #fff;
     top: 14em;
     left: 24em;
-    box-shadow: -0.1em 0em 1.5em 0.1em rgb(44, 44, 44),
+    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(148, 143, 143),
                 -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
 }
 
@@ -283,7 +303,7 @@ body {
     z-index: -1;
     top: -0.3em;
     border-radius: 30%;
-    background-color: #1512d3;
+    background-color: rgb(196,196,196);
     width: 2em;
     height: 2em;
     left: 16em;
@@ -294,24 +314,34 @@ body {
     width: 2em;
     border-radius: 30%;
     height: 1em;
-    background-color: #1310bb;
+    background-color: rgb(196,196,196);
     top: -0.3em;
     left: 12em;
 }
 
 .joystick1 {
-    left: 19.5em;
-    top: 17.2em;
-    box-shadow: -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
+    display: flex;
+    position: absolute;
+    width: 3.3em;
+    height: 3.3em;
+    border-radius: 50%;
+    left: 19.9em;
+    top: 15.5em;
+    border:solid rgb(92, 88, 88);
+    box-shadow: rgb(167, 167, 167);
+    background: rgb(196,196,196);
+    background: linear-gradient(233deg, rgb(201, 199, 199) 40%, rgb(230, 224, 224) 71%);
+    box-shadow: 0em 0.1em  1em 0.1em  rgb(167, 167, 167);
 }
+
 .joystick-right {
     display: flex;
     position: absolute;
-    width: 3em;
-    height: 3em;
+    width: 3.2em;
+    height: 3.2em;
     border-radius: 50%;
     left: 0.1em;
-    top: 0.2em;
+    top: -0.1em;
     box-shadow: rgb(167, 167, 167);
     background: rgb(196,196,196);
     background: linear-gradient(233deg, rgb(201, 199, 199) 40%, rgb(230, 224, 224) 71%);
@@ -330,6 +360,8 @@ body {
     top: 32em;
     right: 24em;
     box-shadow: -0.1em 0em 1.4em rgb(44, 44, 44);
+    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(148, 143, 143),
+                -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
 }
 
 .menu {
@@ -362,7 +394,7 @@ body {
     width: 0.3em;
     top: -0.9em;
     right: -0.8em;
-    box-shadow: -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
+    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(131, 127, 127);
 }
 
 .relleno {
@@ -374,7 +406,7 @@ body {
     width: 0.4em;
     top: 1.3em;
     right: 0.8em;
-    box-shadow: -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
+    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(131, 127, 127);
 }
 
 .cruzAbajo {
@@ -386,7 +418,7 @@ body {
     width: 0.3em;
     top: 1.8em;
     right: 0.9em;
-    box-shadow: -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
+    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(131, 127, 127);
 }
 
 .cruzDerecha {
@@ -398,7 +430,8 @@ body {
     width: 0.6em;
     top: 1.4em;
     right: 1.2em;
-    box-shadow: -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
+    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(148, 143, 143),
+                -0.1em 0em 1.5em 0.1em rgb(92, 91, 91);
 }
 
 .cruzIzquierda {
@@ -410,18 +443,17 @@ body {
     width: 0.6em;
     top: 1.4em;
     right: 0.2em;
-    box-shadow: -0.1em 0em 1.5em 0.1em rgb(44, 44, 44);
+    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(131, 127, 127);
 }
 
-.btnB {
-    z-index: 1;
+.btnBc {
     display: flex;
     position: absolute;
     border-radius: 45%;
     width: 1em;
     top: 18.2em;
     height: 2em;
-    left: 20.4em;
+    right: 3em;
     box-shadow: 0em 0.1em  0.2em 0.21em  rgb(216, 208, 208);
     box-shadow: 0em 0.1em  1em 0.1em  rgb(199, 197, 197);
 }
