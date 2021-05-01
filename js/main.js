@@ -1,10 +1,26 @@
-const of = document.querySelector('#of');
-const on = document.querySelector('#on');
+let player;
+function onYouTubeIframeAPIReady() {
 
-of.addEventListener('click', () => {
-    alert("desde btn-home");
-});
+    player = new YT.Player('player', {
 
-on.addEventListener('click', () => {
-   alert('test2');
-});
+        height: '303.5',
+        width: '527.5',
+        videoId: 'XL0MRDkLq6k',
+        playerVars: {
+            controls: 0
+        }
+    });
+
+        let button = document.getElementById("on");
+
+        button.addEventListener('click', play, false);
+}
+
+function play() {
+
+    if (player.getPlayerState() == YT.PlayerState.PLAYING) {
+        player.stopVideo();
+    } else {
+        player.playVideo();
+    }
+}
