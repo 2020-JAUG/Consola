@@ -26,8 +26,8 @@ body {
     display: flex;
     height: 25em;
     width: 57em;
-    background-color:  #828387;
-    border: solid rgb(176, 173, 173);
+    border: solid rgb(194, 190, 190);
+    background: linear-gradient(29deg, rgb(4, 2, 52) 0%, rgba(130,131,135,1) 0%, rgba(70,73,85,1) 0%, rgba(218,219,224,1) 0%, rgba(147,149,159,1) 0%, rgba(255,255,255,1) 0%, rgb(125, 113, 113) 0%, rgb(189, 177, 177) 100%, rgb(84, 48, 49) 100%, rgb(121, 121, 123) 100%, rgb(181, 99, 101) 100%, rgba(130,131,135,1) 100%, rgba(141,145,145,1) 100%, rgba(96,101,105,1) 100%);
     justify-content: center;
     border-radius: 2em 3em 3em 3em;
     box-shadow: -0.3em 1.6em 3em 1em rgb(150, 146, 146),
@@ -142,15 +142,14 @@ body {
 
 .l1 {
     position: absolute;
-    top: -0.7em;
-    left: -0.52em;
+    top: -0.6em;
+    left: -0.7em;
     width: 4.6em;
-    border-radius: 57% 71% 0% 22%;
-    height: 4.2em;
+    height: 6em;
     background: linear-gradient(233deg, rgb(119, 115, 115) 40%, rgb(99, 95, 95) 72%);
-    border-radius: 221% 93% 21% 1%;
+    border-radius: 122% 98% 221% 19%;
     z-index: -1;
-    box-shadow: 0em 0em 0.2em 0.2em #413d3d;
+    box-shadow: 0em 0em 0.2em 0.2em #857f7f;
 }
 
 .l2 {
@@ -162,8 +161,7 @@ body {
     border-radius: 52% 98% 22% 12%;
     z-index: -1;
     background: linear-gradient(233deg, rgb(119, 115, 115) 40%, rgb(99, 95, 95) 72%);
-    box-shadow: 0em 0em 0.2em 0.2em #413d3d,
-                32em 22em 3em 1 rgb(67, 67, 67);
+    box-shadow: 0em 0em 0.2em 0.2em #857f7f;
 }
 
 .botonX {
@@ -331,7 +329,7 @@ body {
                 -0.1em 0em 1.5em 0.1em  rgb(108, 103, 103);
 }
 
-.menu {
+.of {
     left: 24em;
     top: 32em;
     border-radius: 5%;
