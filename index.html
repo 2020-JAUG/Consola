@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png"  href="img/faviconYellow.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="./css/styles.css" rel="stylesheet" type="text/css">
     <title>Consola</title>
 </head>
 <body>
     <div class="trapecio"></div>
     <main class="cuerpo-consola">
-        <div class="btn-menos btn-up"></div>
-        <div class="btn-menos btn-up1"></div>
+        <!-- <div class="btn-menos btn-up"></div> -->
+        <!-- <div class="btn-menos btn-up1"></div> -->
         <div class="pantalla-fondo"></div>
         <div id="pantalla1"></div>
         <div class="l1"></div>
@@ -23,7 +24,10 @@
         </div>
     </main>
 
-    <div class="btn-menos"></div>
+    <div class="rest">
+        <h2 class="fas fa-window-minimize"></h2>
+    </div>
+
     <div class="joystick joystick1">
         <div class="joystick-stuffed"></div>
     </div>
@@ -32,21 +36,17 @@
         <div class="row1 center"></div>
         <div class="row"></div>
         <div class="row row2"></div>
-        <div class="row1 up"><h3>△</h3></div>
-        <div class="row1 left"><h3>◁</h3></div>
-        <div class="row1 right"><h3>▷</h3></div>
-        <div class="row1 down"><h3>▽</h3></div>
+        <div class="row1 up"><i class="fas fa-sort-up"></i></div>
+        <div class="row1 left"><i class="fas fa-caret-left"></i></div>
+        <div class="row1 right"><i class="fas fa-caret-right"></i></div>
+        <div class="row1 down"><i class="fas fa-sort-down"></i></div>
     </div>
 
     <div id="menu" class="btn-home menu"></div>
 
     <aside>
-        <div class="mas">
-            <div class="relleno"></div>
-            <div class="cruzArriba"></div>
-            <div class="cruzAbajo"></div>
-            <div class="cruzDerecha"></div>
-            <div class="cruzIzquierda"></div>
+        <div class="simbol">
+            <div class="pluss"><h2 class="fas fa-plus"></h2></div>
         </div>
             <div class="botonX"><div class="x"><h2>X</h2></div></div>
             <div class="botonY"><div class="x y"><h2>Y</h2></div></div>
@@ -59,9 +59,13 @@
                 <div class="joystick-stuffed btnB"></div>
                 </div>
             </div>
-            <div id="on" class="btn-home"></div>
+
+            <div id="on" class="btn-home">
+                <i class="fas fa-home"></i>
+            </div>
     </aside>
 
+    <script src="https://www.youtube.com/iframe_api"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
