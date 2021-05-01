@@ -10,17 +10,42 @@ body {
     align-items: center;
 }
 
+h1 {
+    position: absolute;
+    top: 1em;
+    left: 18em;
+    width: 9em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.big {
+    animation-name: enlarge;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes enlarge {
+    from {
+        transform: scale(1.0);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
 .cuerpo-consola {
     position: relative;
     display: flex;
     height: 25em;
     width: 57em;
     border: solid rgb(194, 190, 190);
-    background: linear-gradient(29deg, rgb(4, 2, 52) 0%, rgba(130,131,135,1) 0%, rgba(70,73,85,1) 0%, rgba(218,219,224,1) 0%, rgba(147,149,159,1) 0%, rgba(255,255,255,1) 0%, rgb(125, 113, 113) 0%, rgb(189, 177, 177) 100%, rgb(84, 48, 49) 100%, rgb(121, 121, 123) 100%, rgb(181, 99, 101) 100%, rgba(130,131,135,1) 100%, rgba(141,145,145,1) 100%, rgba(96,101,105,1) 100%);
+    background: linear-gradient(29deg, rgb(4, 2, 52) 0%, rgba(130,131,135,1) 0%, rgba(70,73,85,1) 0%, rgba(218,219,224,1) 0%, rgba(147,149,159,1) 0%, rgba(255,255,255,1) 0%, rgb(125, 113, 113) 0%, rgb(189, 177, 177) 100%, rgb(84, 48, 49) 100%, rgb(121, 121, 123) 100%, rgb(199, 74, 76) 100%, rgba(130,131,135,1) 100%, rgba(141,145,145,1) 100%, rgba(96,101,105,1) 100%);
     justify-content: center;
     border-radius: 2em 3em 3em 3em;
-    box-shadow: -0.3em 1.6em 3em 1em rgb(150, 146, 146),
-                -0.1em  1em rgb(162, 144, 144);
+    box-shadow: -0.3em 1.2em 3em 1em rgb(145, 136, 136),
+                -0.1em  1em rgb(194, 168, 168);
 }
 
 .pantalla-fondo {
@@ -65,9 +90,10 @@ body {
     flex-direction: row;
     width: 2.1em;
     height: 2em;
-    box-shadow: -0.1em 0em 1.5em 0.1em inset rgba(117, 116, 116, 0.982);
     top: -0.3em;
     right: 4em;
+    background: linear-gradient(233deg, rgb(118, 115, 115) 71%, rgb(162, 157, 157) 71%);
+    box-shadow: 0em 0.1em  1em 0.1em  rgb(131, 125, 125);
 }
 
 .up {
@@ -78,8 +104,6 @@ body {
     border-top: 3px solid #74706f;
     border-right: 3px solid  #74706f;
     border-left: 3px solid #74706f;
-    background-color: #fff;
-    box-shadow: -0.1em 0em 1.5em 0.1em inset rgba(117, 116, 116, 0.982);
 }
 
 .left {
@@ -91,8 +115,6 @@ body {
     border-bottom: 3px solid #74706f;
     border-left:3px solid #74706f;
     border-top:3px solid #74706f;
-    background-color: #fff;
-    box-shadow: -0.1em 0em 1.5em 0.1em inset  rgba(117, 116, 116, 0.982);
 }
 
 .center {
@@ -102,29 +124,25 @@ body {
     width: 2.1em;
     border-radius: 0.1em;
     height: 2.2em;
-    box-shadow: -0.1em 0em 1.5em 0.1em inset  rgba(182, 176, 176, 0.982);
-
+    background: linear-gradient(233deg, rgb(118, 115, 115) 71%, rgb(162, 157, 157) 71%);
+    box-shadow: 0em 0.1em  1em 0.1em  rgb(131, 125, 125);
 }
 .right {
-    background-color: #fff;
     align-items: center;
     justify-content: center;
     border-bottom: 3px solid #74706f;
     border-right:3px solid #74706f;
     border-top:3px solid #74706f;
-    box-shadow: -0.1em 0em 1.5em 0.1em inset rgba(117, 116, 116, 0.982);
     top: 1.9em;
     right: -0.1em;
 }
 
 .down {
-    background-color: #fff;
     align-items: center;
     justify-content: center;
     border-bottom: 3px solid #74706f;
     border-left:3px solid #74706f;
-    border-right:3px solid #74706f;;
-    box-shadow: -0.1em 0em 1.5em 0.1em inset rgba(117, 116, 116, 0.982);
+    border-right:3px solid #74706f;
     top: 4.1em;
     right: 1.9em;
 }
@@ -135,10 +153,10 @@ body {
     left: -0.7em;
     width: 4.6em;
     height: 6em;
-    background: linear-gradient(233deg, rgb(119, 115, 115) 40%, rgb(99, 95, 95) 72%);
     border-radius: 122% 98% 221% 19%;
     z-index: -1;
-    box-shadow: 0em 0em 0.2em 0.2em #857f7f;
+    background: linear-gradient(233deg, rgb(59, 56, 56) 71%, rgb(59, 56, 56) 71%);
+    box-shadow: 0em 0.1em  1em 0.1em  rgb(12, 12, 12);
 }
 
 .l2 {
@@ -149,8 +167,8 @@ body {
     height: 6em;
     border-radius: 52% 98% 22% 12%;
     z-index: -1;
-    background: linear-gradient(233deg, rgb(119, 115, 115) 40%, rgb(99, 95, 95) 72%);
-    box-shadow: 0em 0em 0.2em 0.2em #857f7f;
+    background: linear-gradient(233deg, rgb(59, 56, 56) 71%, rgb(59, 56, 56) 71%);
+    box-shadow: 0em 0.1em  1em 0.1em  rgb(12, 12, 12);
 }
 
 .botonX {
@@ -160,10 +178,9 @@ body {
     right: 20.5em;
     top: 16.6em;
     border-radius: 50%;
-    background: #d3d4d6;
     height: 2em;
     width: 2em;
-    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(44, 44, 44);
+    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(94, 91, 91);
 }
 .x>h2 {
     text-align: center;
@@ -175,9 +192,8 @@ body {
     border-radius: 50%;
     height: 1.1em;
     width: 1em;
-    background-color: rgba(255, 255, 255, 0.406);
-    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(138, 133, 133);
-    box-shadow: 0em 0.1em  1em 0.1em  rgb(145, 139, 139);
+    background: linear-gradient(233deg, rgb(118, 115, 115) 71%, rgb(162, 157, 157) 71%);
+    box-shadow: 0em 0.1em  1em 0.1em  rgb(131, 125, 125);
 }
 
 .botonY {
@@ -185,7 +201,6 @@ body {
     display: flex;
     flex-direction: row;
     border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.406);
     height: 2em;
     width: 2em;
     top: 19em;
@@ -198,7 +213,6 @@ body {
     display: flex;
     flex-direction: row;
     border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.406);
     height: 2em;
     width: 2em;
     top: 19em;
@@ -211,7 +225,6 @@ body {
     position: absolute;
     flex-direction: row;
     border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.406);
     height: 2em;
     width: 2em;
     top: 21.1em;
@@ -223,30 +236,30 @@ body {
     display: flex;
     position: absolute;
     flex-direction: column;
-    width: 2em;
-    height: 2em;
+    width: 2.4em;
+    height: 2.4em;
     border-radius: 45%;
-    left: 0.4em;
+    left: 0.3em;
     top: 0.32em;
-    border: 0.1em solid #9f9797;
+    border: 0.1em solid #656262;
     border-radius: 1em;
-    background: rgb(196,196,196);
-    box-shadow: -0.1em 0em 1em 0.1em inset rgb(9, 8, 8),
-                -0.2em 0.1em 2em -0.12em  rgb(45, 43, 43);
+    background: rgb(55, 53, 53);
+    box-shadow: -0.1em 0em 1em 0.1em  rgb(75, 73, 73),
+                -0.2em 0.1em 2em -0.12em  rgb(101, 96, 96);
 
 }
 
 .joystick1 {
     display: flex;
     position: absolute;
-    width: 3.3em;
-    height: 3.3em;
+    width: 3.2em;
+    height: 3.2em;
     border-radius: 50%;
     left: 19.9em;
     top: 15.5em;
-    border:solid rgb(92, 88, 88);
-    background: linear-gradient(233deg, rgb(160, 156, 156) 40%, rgb(150, 142, 142) 71%);
-    box-shadow: 0em 0.1em  1em 0.1em  rgb(94, 88, 88);
+    border:solid rgb(174, 168, 168);
+    background: linear-gradient(233deg, rgb(59, 56, 56) 71%, rgb(59, 56, 56) 71%);
+    box-shadow: 0em 0.1em  1em 0.1em  rgb(12, 12, 12);
 }
 
 .joystick-right {
@@ -258,14 +271,14 @@ body {
     left: 67em;
     top: 25.9em;
     border:solid rgb(174, 168, 168);
-    background: linear-gradient(233deg, rgb(160, 156, 156) 40%, rgb(150, 142, 142) 71%);
-    box-shadow: 0em 0.1em  1em 0.1em  rgb(94, 88, 88);
+    background: linear-gradient(233deg, rgb(59, 56, 56) 71%, rgb(59, 56, 56) 71%);
+    box-shadow: 0em 0.1em  1em 0.1em  rgb(12, 12, 12);
 }
 
 
 .btn-up {
     z-index: -1;
-    top: -0.3em;
+    top: 2em;
     border-radius: 30%;
     background-color: rgb(196,196,196);
     width: 2em;
@@ -307,17 +320,15 @@ body {
     align-items: center;
     position: absolute;
     flex-direction: column;
-    background-color: #fff;
     border-radius: 50%;
-    height: 1.5em;
+    height: 1.7em;
     border: solid rgb(209, 204, 204);
-    width: 1.5em;
-    top: 32em;
+    width: 1.7em;
+    top: 32.5em;
     border: 0.1em solid #747070;
     right: 24em;
-    box-shadow: -0.1em 0em 1.4em  rgb(44, 44, 44);
-    box-shadow: -0.1em 0em 1.5em 0.1em inset rgb(148, 143, 143),
-                -0.1em 0em 1.5em 0.1em  rgb(108, 103, 103);
+    background: linear-gradient(233deg, rgb(118, 115, 115) 71%, rgb(162, 157, 157) 71%);
+    box-shadow: 0em 0.1em  1em 0.1em  rgb(131, 125, 125);
 }
 
 .of {
@@ -325,4 +336,6 @@ body {
     top: 32em;
     border-radius: 5%;
     border-radius: 0;
+    background: linear-gradient(233deg, rgb(118, 115, 115) 71%, rgb(162, 157, 157) 71%);
+    box-shadow: 0em 0.1em  1em 0.1em  rgb(131, 125, 125);
 }
