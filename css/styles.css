@@ -12,10 +12,13 @@ body {
 
 h1 {
     position: absolute;
-    top: 1em;
-    left: 18em;
+    top: 0.3em;
+    left: 10.5em;
     width: 9em;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #544646;
+    font-size: 3em;
+    text-shadow: -0.1em  0em  rgb(194, 168, 168);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .big {
@@ -101,9 +104,9 @@ h1 {
     justify-content: center;
     right: 1.8em;
     top: -0.3em;
-    border-top: 3px solid #74706f;
-    border-right: 3px solid  #74706f;
-    border-left: 3px solid #74706f;
+    border-top: 0.18em solid #74706f;
+    border-right: 0.18em solid  #74706f;
+    border-left: 0.18em solid #74706f;
 }
 
 .left {
@@ -112,9 +115,9 @@ h1 {
     right: 4em;
     align-items: center;
     justify-content: center;
-    border-bottom: 3px solid #74706f;
-    border-left:3px solid #74706f;
-    border-top:3px solid #74706f;
+    border-bottom: 0.18em solid #74706f;
+    border-left:0.18em solid #74706f;
+    border-top:0.18em solid #74706f;
 }
 
 .center {
@@ -130,9 +133,9 @@ h1 {
 .right {
     align-items: center;
     justify-content: center;
-    border-bottom: 3px solid #74706f;
-    border-right:3px solid #74706f;
-    border-top:3px solid #74706f;
+    border-bottom: 0.18em solid #74706f;
+    border-right:0.18em solid #74706f;
+    border-top:0.18em solid #74706f;
     top: 1.9em;
     right: -0.1em;
 }
@@ -140,9 +143,9 @@ h1 {
 .down {
     align-items: center;
     justify-content: center;
-    border-bottom: 3px solid #74706f;
-    border-left:3px solid #74706f;
-    border-right:3px solid #74706f;
+    border-bottom: 0.18em solid #74706f;
+    border-left:0.18em solid #74706f;
+    border-right:0.18em solid #74706f;
     top: 4.1em;
     right: 1.9em;
 }
