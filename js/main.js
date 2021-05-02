@@ -1,3 +1,13 @@
+// We created a function to remove the firts screen
+const of = document.querySelector('#of')
+
+of.addEventListener('click', () => {
+if(of.removeChild( of.children[0] )) {
+
+}
+});
+
+
 let player;
 function onYouTubeIframeAPIReady() {
 
@@ -27,11 +37,6 @@ function onYouTubeIframeAPIReady() {
 function onPlayerReady(event) {
     event.target.playVideo();
     player.pauseVideo();
-
-
-    event.target.setVolume(100);
-    player.setVolume();
-
 }
 
 function play() {
@@ -50,4 +55,4 @@ function volUp() {
     } else {
       alert("Max Vol")
     }
-  }
+}
